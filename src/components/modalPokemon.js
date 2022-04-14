@@ -21,7 +21,7 @@ const ModalPokemon = ({ pokemon }) => {
       >
         <Modal.Header closeButton>
           <Modal.Title>
-            <h2>{pokemon.name}</h2>
+            <h2>{pokemon.name.toUpperCase()}</h2>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
