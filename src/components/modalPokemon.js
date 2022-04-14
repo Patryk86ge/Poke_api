@@ -18,10 +18,11 @@ const ModalPokemon = ({ pokemon }) => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
+        className={"modal__section"}
       >
         <Modal.Header closeButton>
           <Modal.Title>
-            <h2>{pokemon.name.toUpperCase()}</h2>
+            <h2>{pokemon.name}</h2>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -48,11 +49,6 @@ const ModalPokemon = ({ pokemon }) => {
             onClick={handleClose}
           >
             Close
-          </Button>
-          <Button
-            variant="primary"
-          >
-            Understood
           </Button>
         </Modal.Footer>
       </Modal>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import CardPokemon from "../asets/CardPokemon";
+import CardPokemon from "./CardPokemon";
 import PaginationBtn from "../asets/PaginationBtn";
 import axios from "axios";
 import { getPokemon } from "../asets/helpers";
